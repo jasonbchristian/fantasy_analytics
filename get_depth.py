@@ -31,8 +31,10 @@ def get_depth(position = None, team = None, depth = None):
     #filters to only pull through depth = d
     if depth is not None:
         depth_chart = depth_chart.filter(pl.col("pos_rank") <= depth)
+    
+    print("Depth chart successfully pulled!")
     return depth_chart
 
-res = get_depth(position=["WR"], depth=4)
-res.write_csv("depth.csv")
-print("Depth chart successfully pulled!")
+# res = get_depth(position=["WR"], depth=4)
+# res.write_csv("depth.csv")
+
