@@ -1,109 +1,97 @@
 fp_page,page_type,ecr_type,player,id,pos,team,ecr,sd,best,worst,sportsdata_id,player_filename,yahoo_id,cbs_id,player_owned_avg,player_owned_espn,player_owned_yahoo,player_image_url,player_square_image_url,rank_delta,bye,mergename,scrape_date,tm
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Nico Collins,20130,WR,HOU,20.17,2.79,16,24,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,David Montgomery,18239,RB,HOU,53.83,2.27,51,57,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Jayden Higgins,27077,WR,HOU,116.67,7.99,100,123,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,C.J. Stroud,23071,QB,HOU,142.83,7.86,132,155,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Woody Marks,27520,RB,HOU,154.17,7.36,144,165,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Dalton Schultz,17349,TE,HOU,170.67,15.4,146,189,,dalton-schultz.php,,,38.1,,,,,,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Jaylin Noel,27122,WR,HOU,194.33,24.07,161,223,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/best-ball-overall.php,best-overall,bo,Tank Dell,25361,WR,HOU,198.0,17.49,177,228,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/best-ball-qb.php,best-qb,bp,C.J. Stroud,23071,QB,HOU,22.83,1.57,20,25,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/best-ball-qb.php,best-qb,bp,Davis Mills,22799,QB,HOU,65.0,10.0,55,75,,davis-mills.php,,,3.2,,,,,,8,Davis Mills,2026-05-29,HOU
-/nfl/rankings/best-ball-rb.php,best-rb,bp,David Montgomery,18239,RB,HOU,20.83,0.69,20,22,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/best-ball-rb.php,best-rb,bp,Woody Marks,27520,RB,HOU,48.33,3.35,43,53,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/best-ball-rb.php,best-rb,bp,Jawhar Jordan,26329,RB,HOU,99.0,19.0,80,118,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/best-ball-te.php,best-te,bp,Dalton Schultz,17349,TE,HOU,22.5,1.89,20,25,,dalton-schultz.php,,,38.1,,,,,,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/best-ball-te.php,best-te,bp,Marlin Klein,28157,TE,HOU,55.0,8.29,44,64,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/best-ball-te.php,best-te,bp,Cade Stover,25269,TE,HOU,82.5,0.5,82,83,,cade-stover.php,,,1.8,,,,,,8,Cade Stover,2026-05-29,HOU
-/nfl/rankings/best-ball-wr.php,best-wr,bp,Nico Collins,20130,WR,HOU,8.83,0.69,8,10,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/best-ball-wr.php,best-wr,bp,Jayden Higgins,27077,WR,HOU,50.33,2.69,46,54,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/best-ball-wr.php,best-wr,bp,Jaylin Noel,27122,WR,HOU,80.33,14.02,61,97,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/best-ball-wr.php,best-wr,bp,Tank Dell,25361,WR,HOU,87.83,8.97,73,97,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/best-ball-wr.php,best-wr,bp,Xavier Hutchinson,25332,WR,HOU,126.33,19.43,105,152,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Nico Collins,20130,WR,HOU,32.19,5.96,19,43,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,C.J. Stroud,23071,QB,HOU,60.65,19.89,25,97,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jayden Higgins,27077,WR,HOU,111.04,10.1,87,128,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,David Montgomery,18239,RB,HOU,119.88,18.52,87,166,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Woody Marks,27520,RB,HOU,165.96,24.8,102,216,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jaylin Noel,27122,WR,HOU,172.15,28.75,132,245,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Dalton Schultz,17349,TE,HOU,199.19,31.12,148,266,,dalton-schultz.php,,,38.1,,,,,-3,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Tank Dell,25361,WR,HOU,204.4,28.11,163,305,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Marlin Klein,28157,TE,HOU,279.9,18.9,237,307,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Xavier Hutchinson,25332,WR,HOU,342.4,33.8,300,395,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Cade Stover,25269,TE,HOU,356.5,57.49,262,415,,cade-stover.php,,,1.8,,,,,,8,Cade Stover,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Davis Mills,22799,QB,HOU,331.5,87.5,244,419,,davis-mills.php,,,3.2,,,,,,8,Davis Mills,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jawhar Jordan,26329,RB,HOU,351.5,84.5,267,436,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Foster Moreau,18397,TE,HOU,370.0,75.0,295,445,,foster-moreau.php,,,0.7,,,,,-11,8,Foster Moreau,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Brevin Jordan,20162,TE,HOU,385.0,69.0,316,454,,brevin-jordan.php,,,1.0,,,,,,8,Brevin Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jared Wayne,25495,WR,HOU,491.0,0.0,491,491,,jared-wayne.php,,,0.0,,,,,,8,Jared Wayne,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Nico Collins,20130,WR,HOU,18.44,4.18,13,28,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Jayden Higgins,27077,WR,HOU,97.52,10.99,75,117,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,David Montgomery,18239,RB,HOU,108.08,19.03,73,157,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,C.J. Stroud,23071,QB,HOU,120.84,15.91,96,168,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Woody Marks,27520,RB,HOU,160.4,24.05,100,200,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Jaylin Noel,27122,WR,HOU,164.52,33.09,122,279,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Dalton Schultz,17349,TE,HOU,195.2,31.76,120,255,,dalton-schultz.php,,,38.1,,,,,-3,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Tank Dell,25361,WR,HOU,197.38,29.33,146,286,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Marlin Klein,28157,TE,HOU,305.5,35.13,247,357,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Davis Mills,22799,QB,HOU,329.13,32.62,287,386,,davis-mills.php,,,3.2,,,,,,8,Davis Mills,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Xavier Hutchinson,25332,WR,HOU,367.4,38.83,294,402,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Cade Stover,25269,TE,HOU,372.25,39.75,311,421,,cade-stover.php,,,1.8,,,,,,8,Cade Stover,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Jawhar Jordan,26329,RB,HOU,370.5,68.5,302,439,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Foster Moreau,18397,TE,HOU,383.0,65.0,318,448,,foster-moreau.php,,,0.7,,,,,-11,8,Foster Moreau,2026-05-29,HOU
-/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Brevin Jordan,20162,TE,HOU,398.5,57.5,341,456,,brevin-jordan.php,,,1.0,,,,,,8,Brevin Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-qb.php,dynasty-qb,dp,C.J. Stroud,23071,QB,HOU,18.92,2.43,15,23,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/dynasty-qb.php,dynasty-qb,dp,Davis Mills,22799,QB,HOU,53.6,6.14,42,62,,davis-mills.php,,,3.2,,,,,,8,Davis Mills,2026-05-29,HOU
-/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,David Montgomery,18239,RB,HOU,28.68,3.57,23,38,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Woody Marks,27520,RB,HOU,41.6,7.19,26,53,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Jawhar Jordan,26329,RB,HOU,117.5,20.43,98,166,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Evan Hull,25325,RB,HOU,141.25,11.5,123,154,,evan-hull.php,,,1.4,,,,,,8,Evan Hull,2026-05-29,HOU
-/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Noah Whittington,28115,RB,HOU,116.0,11.0,105,127,,noah-whittington.php,,,0.0,,,,,,8,Noah Whittington,2026-05-29,HOU
-/nfl/rankings/rookies.php,dynasty-rk,drk,Marlin Klein,28157,TE,HOU,49.7,11.0,32,84,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/rookies.php,dynasty-rk,drk,Lewis Bond,28144,WR,HOU,77.31,10.13,48,88,,lewis-bond.php,,,1.1,,,,,,8,Lewis Bond,2026-05-29,HOU
-/nfl/rankings/rookies.php,dynasty-rk,drk,Noah Whittington,28115,RB,HOU,71.18,14.89,53,91,,noah-whittington.php,,,0.0,,,,,,8,Noah Whittington,2026-05-29,HOU
-/nfl/rankings/rookies.php,dynasty-rk,drk,Jalen Walthall,28148,WR,HOU,113.33,17.44,89,129,,jalen-walthall.php,,,0.0,,,,,,8,Jalen Walthall,2026-05-29,HOU
-/nfl/rankings/dynasty-te.php,dynasty-te,dp,Dalton Schultz,17349,TE,HOU,30.13,5.56,20,41,,dalton-schultz.php,,,38.1,,,,,-3,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/dynasty-te.php,dynasty-te,dp,Marlin Klein,28157,TE,HOU,50.33,9.05,40,76,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/dynasty-te.php,dynasty-te,dp,Cade Stover,25269,TE,HOU,68.6,7.93,55,80,,cade-stover.php,,,1.8,,,,,,8,Cade Stover,2026-05-29,HOU
-/nfl/rankings/dynasty-te.php,dynasty-te,dp,Brevin Jordan,20162,TE,HOU,79.0,11.95,63,91,,brevin-jordan.php,,,1.0,,,,,,8,Brevin Jordan,2026-05-29,HOU
-/nfl/rankings/dynasty-te.php,dynasty-te,dp,Foster Moreau,18397,TE,HOU,84.8,3.54,78,88,,foster-moreau.php,,,0.7,,,,,-11,8,Foster Moreau,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Nico Collins,20130,WR,HOU,10.88,2.13,8,16,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Jayden Higgins,27077,WR,HOU,44.67,5.51,35,54,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Jaylin Noel,27122,WR,HOU,71.79,12.09,56,111,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Tank Dell,25361,WR,HOU,84.54,11.43,69,122,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Xavier Hutchinson,25332,WR,HOU,145.75,14.24,128,175,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Lewis Bond,28144,WR,HOU,166.0,15.0,151,181,,lewis-bond.php,,,1.1,,,,,,8,Lewis Bond,2026-05-29,HOU
-/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Justin Watson,17603,WR,HOU,205.67,20.4,184,233,,justin-watson.php,,,1.0,,,,,,8,Justin Watson,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Nico Collins,20130,WR,HOU,28.38,6.74,23,51,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,C.J. Stroud,23071,QB,HOU,59.67,8.48,25,76,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,David Montgomery,18239,RB,HOU,87.51,9.25,71,111,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Jayden Higgins,27077,WR,HOU,131.82,6.44,118,147,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Woody Marks,27520,RB,HOU,143.41,16.72,111,196,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Dalton Schultz,17349,TE,HOU,171.59,17.87,136,209,,dalton-schultz.php,,,38.1,,,,,,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Jaylin Noel,27122,WR,HOU,185.16,15.87,158,241,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Tank Dell,25361,WR,HOU,216.11,15.08,191,249,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Xavier Hutchinson,25332,WR,HOU,287.82,22.65,260,333,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Jawhar Jordan,26329,RB,HOU,303.13,19.85,277,336,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Marlin Klein,28157,TE,HOU,312.0,18.67,286,329,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Nico Collins,20130,WR,HOU,14.21,3.11,11,26,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,David Montgomery,18239,RB,HOU,66.79,10.38,47,93,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Jayden Higgins,27077,WR,HOU,119.87,7.06,109,137,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Woody Marks,27520,RB,HOU,133.72,22.63,93,222,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,C.J. Stroud,23071,QB,HOU,135.9,7.55,125,159,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Dalton Schultz,17349,TE,HOU,171.44,26.34,124,229,,dalton-schultz.php,,,38.1,,,,,,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Jaylin Noel,27122,WR,HOU,189.37,23.42,154,269,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Tank Dell,25361,WR,HOU,237.56,19.97,200,283,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Xavier Hutchinson,25332,WR,HOU,321.45,24.57,293,376,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Jawhar Jordan,26329,RB,HOU,346.38,27.11,313,400,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Marlin Klein,28157,TE,HOU,356.0,14.45,337,372,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/qb-cheatsheets.php,redraft-qb,rp,C.J. Stroud,23071,QB,HOU,22.51,1.55,18,27,,cj-stroud.php,,,48.1,,,,,,8,CJ Stroud,2026-05-29,HOU
-/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,David Montgomery,18239,RB,HOU,23.69,3.48,18,33,,david-montgomery.php,,,93.8,,,,,,8,David Montgomery,2026-05-29,HOU
-/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,Woody Marks,27520,RB,HOU,43.75,6.41,33,63,,woody-marks.php,,,67.6,,,,,,8,Woody Marks,2026-05-29,HOU
-/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,Jawhar Jordan,26329,RB,HOU,103.38,5.5,95,113,,jawhar-jordan.php,,,1.1,,,,,,8,Jawhar Jordan,2026-05-29,HOU
-/nfl/rankings/ppr-te-cheatsheets.php,redraft-te,rp,Dalton Schultz,17349,TE,HOU,20.12,2.51,15,26,,dalton-schultz.php,,,38.1,,,,,,8,Dalton Schultz,2026-05-29,HOU
-/nfl/rankings/ppr-te-cheatsheets.php,redraft-te,rp,Marlin Klein,28157,TE,HOU,54.0,6.98,45,62,,marlin-klein.php,,,2.6,,,,,,8,Marlin Klein,2026-05-29,HOU
-/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Nico Collins,20130,WR,HOU,9.08,1.77,7,14,,nico-collins.php,,,99.1,,,,,,8,Nico Collins,2026-05-29,HOU
-/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Jayden Higgins,27077,WR,HOU,49.94,2.33,46,56,,jayden-higgins.php,,,55.1,,,,,,8,Jayden Higgins,2026-05-29,HOU
-/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Jaylin Noel,27122,WR,HOU,71.86,7.43,61,97,,jaylin-noel.php,,,18.2,,,,,,8,Jaylin Noel,2026-05-29,HOU
-/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Tank Dell,25361,WR,HOU,86.97,6.53,75,101,,nathaniel-dell.php,,,30.0,,,,,,8,Tank Dell,2026-05-29,HOU
-/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Xavier Hutchinson,25332,WR,HOU,120.33,9.59,107,137,,xavier-hutchinson.php,,,2.3,,,,,,8,Xavier Hutchinson,2026-05-29,HOU
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Emeka Egbuka,23062,WR,TB,47.17,1.67,45,50,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Bucky Irving,25981,RB,TB,47.5,5.91,40,56,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Chris Godwin Jr.,16406,WR,TB,94.17,3.89,89,99,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Kenneth Gainwell,23310,RB,TB,115.5,2.63,113,120,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Baker Mayfield,17237,QB,TB,116.5,6.05,109,127,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Jalen McMillan,23179,WR,TB,157.33,20.2,129,183,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Cade Otton,23181,TE,TB,208.83,13.55,193,230,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Ted Hurst III,28130,WR,TB,218.67,17.99,186,239,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Sean Tucker,23679,RB,TB,224.4,39.08,182,290,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/best-ball-overall.php,best-overall,bo,Tez Johnson,27147,WR,TB,278.0,21.58,257,314,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/best-ball-qb.php,best-qb,bp,Baker Mayfield,17237,QB,TB,19.17,1.34,17,21,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/best-ball-qb.php,best-qb,bp,Jake Browning,18557,QB,TB,66.0,3.0,63,69,,jake-browning.php,,,1.0,,,,,,10,Jake Browning,2026-05-29,TBB
+/nfl/rankings/best-ball-rb.php,best-rb,bp,Bucky Irving,25981,RB,TB,18.83,0.69,18,20,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/best-ball-rb.php,best-rb,bp,Kenneth Gainwell,23310,RB,TB,37.67,1.6,35,40,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/best-ball-rb.php,best-rb,bp,Sean Tucker,23679,RB,TB,65.17,5.7,57,74,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/best-ball-te.php,best-te,bp,Cade Otton,23181,TE,TB,28.33,2.21,25,31,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/best-ball-wr.php,best-wr,bp,Emeka Egbuka,23062,WR,TB,23.17,1.57,21,26,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/best-ball-wr.php,best-wr,bp,Chris Godwin Jr.,16406,WR,TB,41.5,1.5,39,44,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/best-ball-wr.php,best-wr,bp,Jalen McMillan,23179,WR,TB,62.67,5.34,55,71,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/best-ball-wr.php,best-wr,bp,Ted Hurst III,28130,WR,TB,87.67,7.85,73,98,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/best-ball-wr.php,best-wr,bp,Tez Johnson,27147,WR,TB,120.0,6.93,110,131,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Emeka Egbuka,23062,WR,TB,36.27,5.4,27,46,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Baker Mayfield,17237,QB,TB,53.23,17.67,25,82,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Bucky Irving,25981,RB,TB,72.38,10.45,49,100,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Chris Godwin Jr.,16406,WR,TB,128.23,10.67,107,151,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Kenneth Gainwell,23310,RB,TB,160.08,14.85,127,190,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jalen McMillan,23179,WR,TB,164.65,25.08,112,247,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Ted Hurst III,28130,WR,TB,170.57,30.83,112,247,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Cade Otton,23181,TE,TB,210.56,24.36,160,255,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Sean Tucker,23679,RB,TB,245.04,21.51,208,282,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Tez Johnson,27147,WR,TB,253.85,21.92,226,313,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Eric Rivers Jr.,28128,WR,TB,303.6,31.04,263,358,,eric-rivers.php,,,0.0,,,,,,10,Eric Rivers,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,Jake Browning,18557,QB,TB,423.5,46.5,377,470,,jake-browning.php,,,1.0,,,,,,10,Jake Browning,2026-05-29,TBB
+/nfl/rankings/dynasty-superflex.php,dynasty-op,dsf,David Sills V,18566,WR,TB,526.0,0.0,526,526,,david-sills.php,,,0.0,,,,,,10,David Sills,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Emeka Egbuka,23062,WR,TB,23.48,4.9,17,34,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Bucky Irving,25981,RB,TB,62.0,11.3,35,87,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Baker Mayfield,17237,QB,TB,114.56,18.97,90,164,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Chris Godwin Jr.,16406,WR,TB,116.68,13.1,93,150,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Kenneth Gainwell,23310,RB,TB,151.92,15.54,118,185,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Jalen McMillan,23179,WR,TB,155.96,27.12,99,241,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Ted Hurst III,28130,WR,TB,159.41,30.67,100,228,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Cade Otton,23181,TE,TB,210.25,29.17,160,285,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Sean Tucker,23679,RB,TB,257.08,38.23,203,346,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Tez Johnson,27147,WR,TB,262.68,37.82,221,360,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Eric Rivers Jr.,28128,WR,TB,312.6,47.86,248,368,,eric-rivers.php,,,0.0,,,,,,10,Eric Rivers,2026-05-29,TBB
+/nfl/rankings/dynasty-overall.php,dynasty-overall,do,Jake Browning,18557,QB,TB,336.33,37.82,285,375,,jake-browning.php,,,1.0,,,,,,10,Jake Browning,2026-05-29,TBB
+/nfl/rankings/dynasty-qb.php,dynasty-qb,dp,Baker Mayfield,17237,QB,TB,17.92,2.45,14,23,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/dynasty-qb.php,dynasty-qb,dp,Jake Browning,18557,QB,TB,68.11,5.8,60,79,,jake-browning.php,,,1.0,,,,,,10,Jake Browning,2026-05-29,TBB
+/nfl/rankings/dynasty-qb.php,dynasty-qb,dp,Jalon Daniels,26060,QB,TB,75.5,10.5,65,86,,jalon-daniels.php,,,0.0,,,,,,10,Jalon Daniels,2026-05-29,TBB
+/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Bucky Irving,25981,RB,TB,16.36,2.74,12,23,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Kenneth Gainwell,23310,RB,TB,39.28,4.23,32,48,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/dynasty-rb.php,dynasty-rb,dp,Sean Tucker,23679,RB,TB,68.24,5.99,55,81,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/rookies.php,dynasty-rk,drk,Ted Hurst III,28130,WR,TB,24.19,7.39,12,45,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/rookies.php,dynasty-rk,drk,Eric Rivers Jr.,28128,WR,TB,74.08,7.64,65,89,,eric-rivers.php,,,0.0,,,,,,10,Eric Rivers,2026-05-29,TBB
+/nfl/rankings/rookies.php,dynasty-rk,drk,Jalon Daniels,26060,QB,TB,91.0,17.92,63,121,,jalon-daniels.php,,,0.0,,,,,,10,Jalon Daniels,2026-05-29,TBB
+/nfl/rankings/rookies.php,dynasty-rk,drk,Bauer Sharp,28165,TE,TB,119.5,11.5,108,131,,bauer-sharp.php,,,0.0,,,,,,10,Bauer Sharp,2026-05-29,TBB
+/nfl/rankings/dynasty-te.php,dynasty-te,dp,Cade Otton,23181,TE,TB,32.79,4.53,23,43,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/dynasty-te.php,dynasty-te,dp,Payne Durham,25346,TE,TB,99.5,16.02,79,123,,payne-durham.php,,,0.6,,,,,,10,Payne Durham,2026-05-29,TBB
+/nfl/rankings/dynasty-te.php,dynasty-te,dp,Bauer Sharp,28165,TE,TB,88.5,10.5,78,99,,bauer-sharp.php,,,0.0,,,,,,10,Bauer Sharp,2026-05-29,TBB
+/nfl/rankings/dynasty-te.php,dynasty-te,dp,Devin Culp,26440,TE,TB,101.0,12.83,90,119,,devin-culp.php,,,0.7,,,,,,10,Devin Culp,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Emeka Egbuka,23062,WR,TB,13.46,2.57,10,19,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Chris Godwin Jr.,16406,WR,TB,53.92,5.74,40,66,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Jalen McMillan,23179,WR,TB,69.0,8.07,60,100,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Ted Hurst III,28130,WR,TB,70.68,12.76,45,102,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Tez Johnson,27147,WR,TB,105.48,8.86,93,127,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/dynasty-wr.php,dynasty-wr,dp,Eric Rivers Jr.,28128,WR,TB,132.6,14.49,115,156,,eric-rivers.php,,,0.0,,,,,,10,Eric Rivers,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Baker Mayfield,17237,QB,TB,48.33,9.93,23,60,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Emeka Egbuka,23062,WR,TB,64.26,8.42,45,82,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Bucky Irving,25981,RB,TB,74.64,9.49,53,99,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Chris Godwin Jr.,16406,WR,TB,97.31,9.46,80,122,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Kenneth Gainwell,23310,RB,TB,120.56,13.95,99,152,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Jalen McMillan,23179,WR,TB,182.67,19.58,158,266,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Sean Tucker,23679,RB,TB,202.21,16.16,164,253,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Cade Otton,23181,TE,TB,224.72,9.15,197,246,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Ted Hurst III,28130,WR,TB,243.08,24.02,172,292,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/ppr-superflex-cheatsheets.php,redraft-op,rsf,Tez Johnson,27147,WR,TB,268.45,20.12,237,322,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Emeka Egbuka,23062,WR,TB,44.74,7.45,20,62,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Bucky Irving,25981,RB,TB,54.28,8.54,35,77,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Chris Godwin Jr.,16406,WR,TB,77.74,11.79,49,110,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Kenneth Gainwell,23310,RB,TB,104.82,17.19,80,145,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Baker Mayfield,17237,QB,TB,122.03,7.44,105,134,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Jalen McMillan,23179,WR,TB,184.28,28.08,150,299,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Sean Tucker,23679,RB,TB,216.79,23.62,163,275,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Cade Otton,23181,TE,TB,249.67,15.05,203,281,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Ted Hurst III,28130,WR,TB,268.58,31.66,176,328,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/ppr-cheatsheets.php,redraft-overall,ro,Tez Johnson,27147,WR,TB,299.64,25.36,260,360,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
+/nfl/rankings/qb-cheatsheets.php,redraft-qb,rp,Baker Mayfield,17237,QB,TB,19.46,1.69,15,22,,baker-mayfield.php,,,64.9,,,,,,10,Baker Mayfield,2026-05-29,TBB
+/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,Bucky Irving,25981,RB,TB,19.64,2.74,13,27,,bucky-irving.php,,,96.6,,,,,,10,Bucky Irving,2026-05-29,TBB
+/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,Kenneth Gainwell,23310,RB,TB,35.78,4.47,29,47,,kenneth-gainwell.php,,,86.7,,,,,,10,Kenneth Gainwell,2026-05-29,TBB
+/nfl/rankings/ppr-rb-cheatsheets.php,redraft-rb,rp,Sean Tucker,23679,RB,TB,63.83,4.78,54,78,,sean-tucker.php,,,22.5,,,,,,10,Sean Tucker,2026-05-29,TBB
+/nfl/rankings/ppr-te-cheatsheets.php,redraft-te,rp,Cade Otton,23181,TE,TB,29.09,2.25,23,35,,cade-otton.php,,,26.8,,,,,,10,Cade Otton,2026-05-29,TBB
+/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Emeka Egbuka,23062,WR,TB,22.47,3.44,13,30,,emeka-egbuka.php,,,95.8,,,,,,10,Emeka Egbuka,2026-05-29,TBB
+/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Chris Godwin Jr.,16406,WR,TB,36.08,4.09,25,47,,chris-godwin.php,,,89.7,,,,,,10,Chris Godwin,2026-05-29,TBB
+/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Jalen McMillan,23179,WR,TB,70.78,9.39,60,109,,jalen-mcmillan.php,,,42.2,,,,,,10,Jalen McMillan,2026-05-29,TBB
+/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Ted Hurst III,28130,WR,TB,98.83,12.08,68,124,,ted-hurst.php,,,16.2,,,,,,10,Ted Hurst,2026-05-29,TBB
+/nfl/rankings/ppr-wr-cheatsheets.php,redraft-wr,rp,Tez Johnson,27147,WR,TB,110.24,7.29,95,127,,tez-johnson.php,,,6.8,,,,,,10,Tez Johnson,2026-05-29,TBB
