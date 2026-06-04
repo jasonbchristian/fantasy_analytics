@@ -1,8 +1,9 @@
 import nflreadpy as nfl
 import polars as pl
 
-def get_player_history(player_id, position, from_year = 2025, to_year = 1999):
-   #function to filter relevant columns to player
+#function that returns history for player/s from a range
+def get_player_history(player_ids, position, year):
+   #function to filter relevant columns to player/s
     def get_rel_cols(pos_list):
         col_dict = {
             "QB": [
@@ -54,18 +55,21 @@ def get_player_history(player_id, position, from_year = 2025, to_year = 1999):
                     ordered_cols[col] = None
         return list(ordered_cols.keys())
     rel_cols = get_rel_cols(position)
-    data_frames = []
-    for y in range(from_year,to_year, -1):
-        year_df = nfl.load_player_stats(seasons=[y])
-        
-        temp_df = year_df.filter(pl.col("player_id")==player_id).select(rel_cols)
-        if temp_df.height>0:
-            data_frames.append(temp_df)
 
-    player_stats = pl.concat(data_frames)
+    #loads history from the range
+    history = nfl.load_player_stats(seasons=year)
 
-    print("Player statistics successfully pulled!")
+    #filters the history for relevant player/s and columns, then sorts
+    player_stats = (
+        history
+        .filter(pl.col("player_id").is_in(player_ids))
+        .select(rel_cols)
+        .sort(["player_display_name", "week"])
+    )
+
+    print(f"Successfully pulled player statistics for {year}!")
     return player_stats
 
-# res = get_player_history(player_id="00-0038544", position=["WR"])
+# ids = ["00-0038544", "00-0035676", "00-0037239"]
+# res = get_player_history(player_ids=ids, position=["WR"])
 # res.write_csv("player_season.csv")
