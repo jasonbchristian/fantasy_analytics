@@ -16,6 +16,7 @@ for y in range(2025, 1999, -1):
 wr_history_df = pl.concat(wr_history_list)
 wr_history_df.write_csv("wr_history.csv")
 
+features = 
 X = wr_history_df []
 y = wr_history_df ["fantasy_points_ppr"] 
 
