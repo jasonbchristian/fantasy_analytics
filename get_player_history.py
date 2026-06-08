@@ -2,12 +2,12 @@ import nflreadpy as nfl
 import polars as pl
 
 #function that returns history for player/s from a range
-def get_player_history(player_ids, position, year):
+def get_player_history(player_ids, position, year=2025):
    #function to filter relevant columns to player/s
     def get_rel_cols(pos_list):
         col_dict = {
             "QB": [
-                "player_id", "player_display_name", "position",	"season", "week", "season_type",
+                "player_id", "player_display_name", "position",	"season", "week", "season_type", "game_id",
                 "team", "opponent_team", "completions", "attempts", "passing_yards", "passing_tds", "passing_interceptions",
                 "sacks_suffered", "sack_yards_lost", "sack_fumbles", "sack_fumbles_lost", "passing_air_yards", 
                 "passing_yards_after_catch", "passing_first_downs", "passing_epa", "passing_cpoe", "passing_2pt_conversions", 
@@ -15,7 +15,7 @@ def get_player_history(player_ids, position, year):
                 "rushing_first_downs", "rushing_epa", "rushing_2pt_conversions","fantasy_points" ,"fantasy_points_ppr"
             ],
             "WR": [
-                "player_id", "player_display_name", "position",	"season", "week", "season_type",
+                "player_id", "player_display_name", "position",	"season", "week", "season_type", "game_id",
                 "team", "opponent_team", "carries", "rushing_yards", "rushing_tds", "rushing_fumbles", "rushing_fumbles_lost",
                 "rushing_first_downs", "rushing_epa", "rushing_2pt_conversions", "receptions", "targets", "receiving_yards",
                 "receiving_tds", "receiving_fumbles", "receiving_fumbles_lost", "receiving_air_yards", "receiving_yards_after_catch", 
@@ -23,7 +23,7 @@ def get_player_history(player_ids, position, year):
                 "fumble_recovery_own", "fumble_recovery_yards_own", "penalties", "penalty_yards", "fantasy_points" ,"fantasy_points_ppr"
             ],
             "RB": [
-                "player_id", "player_display_name", "position",	"season", "week", "season_type",
+                "player_id", "player_display_name", "position",	"season", "week", "season_type", "game_id",
                 "team", "opponent_team", "carries", "rushing_yards", "rushing_tds", "rushing_fumbles", "rushing_fumbles_lost",
                 "rushing_first_downs", "rushing_epa", "rushing_2pt_conversions", "receptions", "targets", "receiving_yards",
                 "receiving_tds", "receiving_fumbles", "receiving_fumbles_lost", "receiving_air_yards", "receiving_yards_after_catch", 
@@ -31,7 +31,7 @@ def get_player_history(player_ids, position, year):
                 "fumble_recovery_own", "fumble_recovery_yards_own", "penalties", "penalty_yards", "fantasy_points" ,"fantasy_points_ppr"
             ],
             "TE": [
-                "player_id", "player_display_name", "position",	"season", "week", "season_type",
+                "player_id", "player_display_name", "position",	"season", "week", "season_type", "game_id",
                 "team", "opponent_team", "carries", "rushing_yards", "rushing_tds", "rushing_fumbles", "rushing_fumbles_lost",
                 "rushing_first_downs", "rushing_epa", "rushing_2pt_conversions", "receptions", "targets", "receiving_yards",
                 "receiving_tds", "receiving_fumbles", "receiving_fumbles_lost", "receiving_air_yards", "receiving_yards_after_catch", 
@@ -39,7 +39,7 @@ def get_player_history(player_ids, position, year):
                 "fumble_recovery_own", "fumble_recovery_yards_own", "penalties", "penalty_yards", "fantasy_points" ,"fantasy_points_ppr"
             ],     
             "K":[
-                "player_id", "player_display_name", "position",	"season", "week", "season_type",
+                "player_id", "player_display_name", "position",	"season", "week", "season_type", "game_id",
                 "team", "opponent_team", "penalties", "penalty_yards", "fg_made", "fg_att", "fg_missed", "fg_blocked",
                 "fg_long", "fg_pct", "fg_made_0_19", "fg_made_20_29", "fg_made_30_39", "fg_made_40_49", "fg_made_50_59",
                 "fg_made_60_", "fg_missed_0_19", "fg_missed_20_29", "fg_missed_30_39", "fg_missed_40_49", "fg_missed_50_59",
@@ -59,6 +59,12 @@ def get_player_history(player_ids, position, year):
     #loads history from the range
     history = nfl.load_player_stats(seasons=year)
 
+    if "game_id" not in history.columns:
+        history = history.with_columns(
+            pl.concat_str([pl.col("season"), pl.lit("_"), pl.col("week"), pl.lit("_"), pl.col("team"), pl.lit("_"), pl.col("opponent_team")])
+            .alias("game_id")
+        )
+
     #filters the history for relevant player/s and columns, then sorts
     player_stats = (
         history
@@ -70,6 +76,6 @@ def get_player_history(player_ids, position, year):
     print(f"Successfully pulled player statistics for {year}!")
     return player_stats
 
-# ids = ["00-0038544", "00-0035676", "00-0037239"]
-# res = get_player_history(player_ids=ids, position=["WR"])
-# res.write_csv("player_season.csv")
+ids = ["00-0038544", "00-0035676", "00-0037239"]
+res = get_player_history(player_ids=ids, position=["WR"])
+res.write_csv("library/player_season.csv")

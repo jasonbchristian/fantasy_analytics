@@ -35,6 +35,6 @@ def get_depth(position = None, team = None, depth = None):
     print("Depth chart successfully pulled!")
     return depth_chart
 
-# res = get_depth(position=["WR"], depth=4)
-# res.write_csv("depth.csv")
+res = get_depth(position=["WR"], depth=4)
+res.write_csv("library/depth.csv")
 

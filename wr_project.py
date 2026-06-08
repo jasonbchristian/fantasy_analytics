@@ -2,6 +2,7 @@ import nflreadpy as nfl
 import polars as pl
 import get_depth as gd
 import get_player_history as ph
+import get_team_history as th
 from sklearn.model_selection import train_test_split
 
 current_wrs = gd.get_depth(position=["WR"], depth=4)
@@ -12,14 +13,26 @@ for y in range(2025, 1999, -1):
 
     if year_data is not None and year_data.height > 0:
         wr_history_list.append(year_data)
-
 wr_history_df = pl.concat(wr_history_list)
-wr_history_df.write_csv("wr_history.csv")
 
-features = 
-X = wr_history_df []
-y = wr_history_df ["fantasy_points_ppr"] 
+team_history_list = []
+for y in range(2025, 1999, -1):
+    year_data = th.get_team_history(year=y)
 
-X_train, X_test,
-y_train, y_test = train_test_split(X, y, random_state=42, test_size= 0.20)
+    if year_data is not None and year_data.height > 0:
+        team_history_list.append(year_data)
+
+team_history_df = pl.concat(team_history_list, how="diagonal_relaxed")
+print(team_history_df.null_count().glimpse())
+
+# player_team_stats = wr_history_df.join(team_history, on="team_id")
+
+wr_history_df.write_csv("library/wr_history.csv")
+team_history_df.write_csv("library/team_history.csv")
+# features = 
+# X = wr_history_df []
+# y = wr_history_df ["fantasy_points_ppr"] 
+
+# X_train, X_test,
+# y_train, y_test = train_test_split(X, y, random_state=42, test_size= 0.20)
 

@@ -2,7 +2,7 @@ import nflreadpy as nfl
 import polars as pl
 
 #function that returns history for player/s from a range
-def get_team_history():
+def get_team_history(year=2025):
    #function to filter relevant columns to player/s
     # def get_rel_cols(pos_list):
     #     col_dict = {
@@ -57,8 +57,12 @@ def get_team_history():
     # rel_cols = get_rel_cols(position)
 
     #loads history from the range
-    history = nfl.load_team_stats(seasons=2025)
-
+    history = nfl.load_team_stats(seasons=year)
+    if "game_id" not in history.columns:
+        history = history.with_columns(
+            pl.concat_str([pl.col("season"), pl.lit("_"), pl.col("week"), pl.lit("_"), pl.col("team"), pl.lit("_"), pl.col("opponent_team")])
+            .alias("game_id")
+        )
     #filters the history for relevant player/s and columns, then sorts
     # player_stats = (
     #     history
@@ -67,8 +71,8 @@ def get_team_history():
     #     .sort(["player_display_name", "week"])
     # )
 
-    print("Successfully pulled player statistics for 2025!")
+    print(f"Successfully pulled team statistics for {year}!")
     return history
 
-res = get_team_history()
-res.write_csv("team_history.csv")
+# res = get_team_history()
+# res.write_csv("team_history.csv")
