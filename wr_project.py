@@ -4,6 +4,7 @@ import get_depth as gd
 import get_player_history as ph
 import get_team_history as th
 from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 
 # pull latest depth chart for WRs
 current_wrs = gd.get_depth(position=["WR"], depth=4)
@@ -28,7 +29,7 @@ for y in range(2025, 1999, -1):
 
 team_history_df = pl.concat(team_history_list, how="diagonal_relaxed")
 
-#narrows to relevent columns for WRs
+#narrows to the team history column
 rel_cols = [
     "season","week","team","season_type","game_id","opponent_team","completions","attempts","passing_yards","passing_tds","passing_interceptions","sacks_suffered","sack_yards_lost",
     "sack_fumbles","sack_fumbles_lost","passing_air_yards","passing_yards_after_catch","passing_first_downs","passing_epa","passing_cpoe",
@@ -38,20 +39,50 @@ rel_cols = [
     "def_interceptions","def_interception_yards","def_pass_defended","def_tds","def_fumbles","def_safeties", "penalties","penalty_yards"
     ]
 team_history_df = team_history_df.select(rel_cols)
-print(team_history_df.null_count().glimpse())
 
-
+#joins the team-wide stats during each game for each wr
 player_team_stats = wr_history_df.join(team_history_df, on=["game_id", "team"], how="left")
+
+#join the opposing team defense stats during each game for each wr
+def_cols = [
+    "game_id", "team", "def_tackles_solo","def_tackles_with_assist","def_tackle_assists","def_tackles_for_loss","def_tackles_for_loss_yards","def_fumbles_forced",
+    "def_sacks","def_sack_yards","def_qb_hits","def_interceptions","def_interception_yards","def_pass_defended","def_tds","def_fumbles","def_safeties"
+]
+player_team_opp_stats = player_team_stats.join(team_history_df.select(def_cols), left_on =["game_id", "opponent_team"], right_on = ["game_id", "team"], how="left", suffix ="_opp")
 
 wr_history_df.write_csv("library/wr_history.csv")
 team_history_df.write_csv("library/team_history.csv")
 player_team_stats.write_csv("library/player_team_stats.csv")
+player_team_opp_stats.write_csv("library/player_team_opp_stats.csv")
 
+# off_features = ["completions","attempts","passing_yards","passing_tds","passing_interceptions","sacks_suffered",
+#     "sack_yards_lost","sack_fumbles","sack_fumbles_lost","passing_air_yards","passing_yards_after_catch","passing_first_downs","passing_epa","passing_cpoe","carries_right",
+#     "rushing_yards_right","rushing_tds_right","rushing_fumbles_right","rushing_fumbles_lost_right","rushing_first_downs_right"
 
-# features = 
-# X = wr_history_df []
-# y = wr_history_df ["fantasy_points_ppr"] 
+# ]
+# def_features = [
+#     "def_tackles_solo","def_tackles_with_assist","def_tackle_assists","def_tackles_for_loss","def_tackles_for_loss_yards","def_fumbles_forced","def_sacks",
+#     "def_sack_yards","def_qb_hits","def_interceptions","def_interception_yards", "def_pass_defended", "def_tds","def_fumbles","def_safeties"
+# ]
+# opp_def_features = [
+#     "def_tackles_solo_opp","def_tackles_with_assist_opp","def_tackle_assists_opp","def_tackles_for_loss_opp", "def_tackles_for_loss_yards_opp", "def_fumbles_forced_opp",
+#     "def_sacks_opp","def_sack_yards_opp","def_qb_hits_opp","def_interceptions_opp","def_interception_yards_opp","def_pass_defended_opp", "def_tds_opp","def_fumbles_opp","def_safeties_opp"
+# ]
 
-# X_train, X_test,
-# y_train, y_test = train_test_split(X, y, random_state=42, test_size= 0.20)
+features = [
+    "receiving_epa","racr","target_share","air_yards_share","wopr", "passing_epa","passing_cpoe", "rushing_epa_right"
+]
+X = player_team_opp_stats.select(features)
+y = player_team_opp_stats.select("fantasy_points_ppr")
+
+print(X.glimpse())
+print(y.glimpse())
+
+null_X = X.select(pl.col("receiving_epa").is_null() | pl.col("racr").is_null() )
+
+null_X.write_csv("library/null.csv")
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size= 0.20)
+
+lin_model = LinearRegression().fit(X_train, y_train)
+
 

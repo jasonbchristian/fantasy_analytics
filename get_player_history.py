@@ -68,7 +68,7 @@ def get_player_history(player_ids, position, year=2025):
     #filters the history for relevant player/s and columns, then sorts
     player_stats = (
         history
-        .filter(pl.col("player_id").is_in(player_ids))
+        .filter(pl.col("player_id").is_in(player_ids) & pl.col("targets")!=0)
         .select(rel_cols)
         .sort(["player_display_name", "week"])
     )
