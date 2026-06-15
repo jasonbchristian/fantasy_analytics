@@ -3,8 +3,6 @@ import polars as pl
 import get_depth as gd
 import get_player_history as ph
 import get_team_history as th
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
 
 # pull latest depth chart for WRs
 current_wrs = gd.get_depth(position=["WR"], depth=4)
@@ -49,6 +47,7 @@ def_cols = [
     "def_sacks","def_sack_yards","def_qb_hits","def_interceptions","def_interception_yards","def_pass_defended","def_tds","def_fumbles","def_safeties"
 ]
 player_team_opp_stats = player_team_stats.join(team_history_df.select(def_cols), left_on =["game_id", "opponent_team"], right_on = ["game_id", "team"], how="left", suffix ="_opp")
+player_team_opp_stats = player_team_opp_stats.drop_nans(subset=["receiving_epa","racr"]).drop_nulls(subset=["receiving_epa","racr"])
 
 wr_history_df.write_csv("library/wr_history.csv")
 team_history_df.write_csv("library/team_history.csv")
@@ -73,16 +72,5 @@ features = [
     "receiving_epa","racr","target_share","air_yards_share","wopr", "passing_epa","passing_cpoe", "rushing_epa_right"
 ]
 X = player_team_opp_stats.select(features)
+
 y = player_team_opp_stats.select("fantasy_points_ppr")
-
-print(X.glimpse())
-print(y.glimpse())
-
-null_X = X.select(pl.col("receiving_epa").is_null() | pl.col("racr").is_null() )
-
-null_X.write_csv("library/null.csv")
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size= 0.20)
-
-lin_model = LinearRegression().fit(X_train, y_train)
-
-
