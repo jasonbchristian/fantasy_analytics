@@ -13,4 +13,5 @@ def get_team_history(year=2025):
             pl.concat_str([pl.col("season"), pl.lit("_"), pl.col("week"), pl.lit("_"), pl.col("team"), pl.lit("_"), pl.col("opponent_team")])
             .alias("game_id")
         )
+    print(f"Successfully pulled team history for {year}!")
     return history
